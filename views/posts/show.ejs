@@ -7,5 +7,21 @@
 <p><%= post.content %></p>
 
 <hr />
-
+<div class="col-md-12 col-md-offset-0">
+  <% post.comments.forEach(comment => { %>
+    <p><strong><%= comment.name %></strong></p>
+    <p><%= comment.comment %></p>
+    <hr/>
+  <% } ) %>
+</div>
+<hr />
+<div class="form-group">
+<h2>Your comments</h2>
+  <form method="post" action="./comment">
+    <input class="form-control" id="name" name="name" placeholder="Name"><br/>
+    <textarea class="form-control" rows="4" columns="200" id="comment" name="comment" placeholder="Say something"></textarea><br/>
+    <input type="hidden" name="id" value="<%= post.id %>">
+    <input type="submit" value="Submit Comment">
+  </form>
+</div>
 <a href="/">&larr; Back Home</a>
