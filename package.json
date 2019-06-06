@@ -35,7 +35,7 @@
     "moment": "^2.13.0",
     "morgan": "^1.7.0",
     "pg": "^5.0.0",
-    "pg-hstore": "^2.3.2",
+    "pg-hstore": "^2.3.3",
     "pug": "^2.0.3",
     "rowdy-logger": "0.0.2",
     "sequelize": "^3.23.3"
