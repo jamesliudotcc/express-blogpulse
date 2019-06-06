@@ -19,7 +19,7 @@
     "@types/pug": "^2.0.4",
     "@types/sequelize": "^4.27.33",
     "babel-eslint": "^6.0.4",
-    "csslint": "^0.10.0",
+    "csslint": "^1.0.5",
     "eslint": "^2.11.1",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-config-prettier": "^3.3.0",
