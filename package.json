@@ -38,6 +38,6 @@
     "pg-hstore": "^2.3.2",
     "pug": "^2.0.3",
     "rowdy-logger": "0.0.2",
-    "sequelize": "^3.23.3"
+    "sequelize": "^3.35.1"
   }
 }
